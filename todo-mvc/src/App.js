@@ -8,7 +8,7 @@ class App extends React.Component {
   }
 
   handleSubmit = (e) => {
-    // prevent form from reloading
+    // prevent page from reloading
     e.preventDefault()
     // add new todo to state
     this.setState({ todos: this.state.todos.concat(this.state.input) })
